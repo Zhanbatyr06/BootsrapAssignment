@@ -124,5 +124,72 @@ a{
     border: none;
 }
 
+.foot_cont{
+    background-color: rgb(24, 24, 24);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.foot_nav{
+    display: grid;
+}
+
+.foot_nav a{
+    padding: 0 10px;
+    color: white;
+}
+
+.foot_fed{
+    display: grid;
+  
+}
+
+.foot_fed a{
+    margin: 10px;
+    color: white;
+}
+
+.nav-link:hover, .nav-link:focus {
+    color: #f7d959; 
+    transform: scale(1.1); 
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 6px;
+    left: 0;
+    background-color: #f7d959;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover::after, .nav-link:focus::after {
+    width: 100%; 
+}
+
+.nav-link1:hover, .nav-link1:focus {
+    color: #f7d959; 
+    transform: scale(1.1); 
+}
+
+.nav-link1::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: #f7d959;
+    transition: width 0.3s ease;
+}
+
+.nav-link1:hover::after, .nav-link1:focus::after {
+    width: 100%; 
+}
+
+/* All css made by Zhanbatyr & Nadir */
 
 
