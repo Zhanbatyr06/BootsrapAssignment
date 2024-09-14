@@ -1,0 +1,128 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header_main{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(243, 243, 247);
+}
+
+.header_cont{
+    display: flex;
+    padding: 20px 20px;
+}
+
+
+.header_cont h2{
+    font-weight: 800;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.header_cont img{
+    height: 80px;
+    width: 80px;
+}
+
+
+.header_links{
+    padding: 40px 20px;
+}
+
+.header_links a{
+    font-weight: 500;
+    margin: 10px;
+}
+
+.popular_food h2{
+    padding: 5px 20px;
+}
+
+.popular_cont{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.popular_1{
+    display: flex;
+    border-radius: 12px;
+    box-shadow: rgba(6, 5, 50, 0.15) 0px 4px 22px -6px;
+}
+
+.desc_1{
+    padding: 0 10px;
+    
+}
+
+.popular_2{
+    display: flex;
+    border-radius: 12px;
+    box-shadow: rgba(6, 5, 50, 0.15) 0px 4px 22px -6px;
+}
+
+.desc_2{
+    padding: 0 10px;
+}
+
+.popular_3{
+    display: flex;
+    border-radius: 12px;
+    box-shadow: rgba(6, 5, 50, 0.15) 0px 4px 22px -6px;
+}
+
+.desc_3{
+    padding: 0 10px;
+}
+
+.popular_4{
+    display: flex;
+    border-radius: 12px;
+    box-shadow: rgba(6, 5, 50, 0.15) 0px 4px 22px -6px;
+}
+
+.desc_4{
+    padding: 0 10px;
+}
+
+.pizza h1{
+    padding: 5px 20px;
+}
+
+
+.pizza_cont{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+.pizza_cont2{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 0;
+}
+
+.fot{
+    display: flex;
+    justify-content: space-between;
+}
+
+.fot button{
+    background-color: #FFFBE5;
+    height: 40px;
+    padding: 10px 50px;
+    font-size: 16px;
+    border-radius: 12px;
+    border: none;
+}
+
+
+

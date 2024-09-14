@@ -4,6 +4,46 @@ body{
     padding: 0;
 
 }
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.header_main{
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(243, 243, 247);
+}
+
+.header_cont{
+    display: flex;
+    padding: 20px 20px;
+}
+
+
+.header_cont h2{
+    font-weight: 800;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+.header_cont img{
+    height: 80px;
+    width: 80px;
+}
+
+
+.header_links{
+    padding: 40px 20px;
+}
+
+.header_links a{
+    font-weight: 500;
+    margin: 10px;
+}
 .container{
     display: flex;
     margin: 90px;
